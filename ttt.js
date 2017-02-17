@@ -17,16 +17,18 @@ function ttt(){
 $(document).ready(function(){
   $('.box').on('click', varup);
   $('.box').on('click', function(){
-    if (count % 2 === 0){
-      if ($(this).text() === ''){
+    if (count % 2 === 0 && $(this).text().trim() === ''){
         $(this).html('O');
-      }}
-    else if (count % 2 !== 0){
-      if ($(this).text() === ''){
+      }
+    else if (count % 2 !== 0 && $(this).text().trim() === ''){
         $(this).html('X');
-      }}
-    })
-});
+      }})
+  $('.restart').on('click', function(){
+    $('.box').empty();
+  });
+    });
+
+
 
 
 
