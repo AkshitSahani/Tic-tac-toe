@@ -1,0 +1,27 @@
+.outerbox{
+  width: 55%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.box{
+  border: 2px solid black;
+  float: left;
+  width: 32%;
+  height: 200px;
+  font-size: 100px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.restart{
+  overflow: hidden;
+  clear: left;
+  display: block;
+  margin: auto;
+}
